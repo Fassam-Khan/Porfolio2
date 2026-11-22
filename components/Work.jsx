@@ -15,44 +15,53 @@ import {
 -------------------------------------------------------------------------- */
 const projects = [
   {
-    title: "Daraz2",
+    title: "E-commerce Authentication",
     subtitle: "E-commerce marketplace",
     description:
-      "A Daraz-inspired online marketplace built with the Next.js App Router, a data-model layer and a reusable shadcn/ui component library.",
-    tags: ["Next.js", "shadcn/ui", "Tailwind CSS"],
+      "Authentication system inspired by Shopify, built with Next.js and Firebase Authentication. Implemented user sign-up, login, logout, and authentication state handling as part of an e-commerce project.",
+    tags: ["Next.js", "shadcn/ui", "Tailwind CSS", "Firebase Authentication"],
     repo: "https://github.com/Fassam-Khan/Daraz2",
-    live: "",
+    live: "https://daraz2-rho.vercel.app/account/register",
     image: "",
     featured: true,
   },
   {
-    title: "Ecommerce",
-    subtitle: "Full-stack online store",
-    description:
-      "A full-stack store on the Next.js App Router with server-side data models, shared components and a Tailwind-styled storefront.",
-    tags: ["Next.js", "Tailwind CSS", "App Router"],
-    repo: "https://github.com/Fassam-Khan/ecommerce-",
-    live: "",
+    title: "Trusk Dispatch",
+    subtitle: "Logistics & Truck Dispatch Website",
+    description:"A professional logistics and truck dispatch website built with Next.js, designed to present freight dispatching services, resources, and business information through a responsive and user-friendly interface.",
+    tags: ["Next Js", "Tailwind Css", "Firebase" ],
+    repo: "https://github.com/Fassam-Khan/firstbridgeus",
+    live: "firstbridgeus.vercel.app",
     image: "",
   },
   {
     title: "Blogging Website",
     subtitle: "Blog platform",
     description:
-      "A React and Vite blogging site with a clean reading experience, configured for one-click deployment on Vercel.",
+      "A responsive blog website built with React and Vite, featuring a clean and user-friendly interface for displaying and browsing blog content.",
     tags: ["React", "Vite", "Vercel"],
-    repo: "https://github.com/Fassam-Khan/Blogging-website",
-    live: "",
+    repo: "https://github.com/Fassam-Khan/Blog-2",
+    live: "https://fkblogs.vercel.app/",
     image: "",
   },
   {
-    title: "Blog 2",
+    title: "Facebook UI Clone",
     subtitle: "Blog front end, second iteration",
     description:
-      "A rebuilt blog front end on React and Vite with a leaner structure and Vercel-ready routing.",
-    tags: ["React", "Vite", "Vercel"],
+      "A responsive Facebook-inspired social media interface built with HTML, CSS, and JavaScript, focusing on recreating the layout, authentication screens, and responsive user experience.",
+    tags: ["HTML", "CSS", "Javascript"],
     repo: "https://github.com/Fassam-Khan/Blog-2",
-    live: "",
+    live: "https://facelookfassam.netlify.app/",
+    image: "",
+  },
+  {
+    title: "Usability Hub Clone",
+    subtitle: "Frontend Landing Page",
+    description:
+      "A responsive website clone inspired by Usability Hub, built from scratch using HTML and CSS to practice modern webpage layouts, responsive design, and frontend styling.",
+    tags: ["HTML", "CSS"],
+    repo: "https://github.com/Fassam-Khan/usabilityclone",
+    live: "https://usability-fassam-khan.netlify.app/",
     image: "",
   },
 ];
